@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.framework.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.application.tests.ApplicationTest">
+        <methods>
+          <include name="setupReport"/>
+          <include name="initiateAllClassesWithValidDriver"/>
+          <include name="stopReporting"/>
+          <include name="tearDownBrowser"/>
+          <include name="verifyLoginFeature" invocation-numbers="1 2"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- com.application.tests.ApplicationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

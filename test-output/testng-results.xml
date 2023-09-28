@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T10:08:39 IST" name="Suite" finished-at="2023-09-25T10:10:00 IST" duration-ms="80668">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T10:08:39 IST" name="Test" finished-at="2023-09-25T10:10:00 IST" duration-ms="80668">
+      <class name="com.application.tests.ApplicationTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:39 IST" name="setupReport" finished-at="2023-09-25T10:08:39 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:40 IST" name="setupBrowser" finished-at="2023-09-25T10:08:45 IST" duration-ms="5923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:45 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:08:45 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyWhetherApplicationIsLaunched()[pri:1, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:45 IST" name="verifyWhetherApplicationIsLaunched" finished-at="2023-09-25T10:08:51 IST" duration-ms="5606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhetherApplicationIsLaunched -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:51 IST" name="tearDownBrowser" finished-at="2023-09-25T10:08:52 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:52 IST" name="setupBrowser" finished-at="2023-09-25T10:08:54 IST" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:54 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:08:54 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyLogoAndCaption()[pri:2, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:54 IST" name="verifyLogoAndCaption" finished-at="2023-09-25T10:08:59 IST" duration-ms="5150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoAndCaption -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:59 IST" name="tearDownBrowser" finished-at="2023-09-25T10:08:59 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:08:59 IST" name="setupBrowser" finished-at="2023-09-25T10:09:02 IST" duration-ms="2427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:02 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:09:02 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyLoginPageHeader()[pri:3, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:02 IST" name="verifyLoginPageHeader" finished-at="2023-09-25T10:09:05 IST" duration-ms="3241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeader -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:05 IST" name="tearDownBrowser" finished-at="2023-09-25T10:09:05 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:06 IST" name="setupBrowser" finished-at="2023-09-25T10:09:09 IST" duration-ms="2797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:09 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:09:09 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyRegistrationFeature(java.lang.String,java.lang.String)[pri:4, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:09 IST" name="verifyRegistrationFeature" data-provider="data" finished-at="2023-09-25T10:09:15 IST" duration-ms="6147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationFeature -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:15 IST" name="tearDownBrowser" finished-at="2023-09-25T10:09:16 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:16 IST" name="setupBrowser" finished-at="2023-09-25T10:09:18 IST" duration-ms="2281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:18 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:09:18 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyLoginFeature(java.lang.String,java.lang.String)[pri:5, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:18 IST" name="verifyLoginFeature" data-provider="data" finished-at="2023-09-25T10:09:25 IST" duration-ms="6830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeature -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:25 IST" name="tearDownBrowser" finished-at="2023-09-25T10:09:25 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:25 IST" name="setupBrowser" finished-at="2023-09-25T10:09:27 IST" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:27 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:09:27 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyLoginFeature(java.lang.String,java.lang.String)[pri:5, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:27 IST" name="verifyLoginFeature" data-provider="data" finished-at="2023-09-25T10:09:44 IST" duration-ms="17280" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaishali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vaishali123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of elements found by By.xpath: //h2[text()='Account Services'] to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61598/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe36948e8abd7ac843709b70de78d483]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //h2[text()='Account Services'] to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61598}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61598/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe36948e8abd7ac843709b70de78d483
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.framework.commons.WebCommons.waitForElement(WebCommons.java:88)
+at com.application.steps.LoginPageSteps.verifyLoginIsSuccessful(LoginPageSteps.java:45)
+at com.application.tests.ApplicationTest.verifyLoginFeature(ApplicationTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeature -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:44 IST" name="tearDownBrowser" finished-at="2023-09-25T10:09:45 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:45 IST" name="setupBrowser" finished-at="2023-09-25T10:09:47 IST" duration-ms="1951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initiateAllClassesWithValidDriver()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:47 IST" name="initiateAllClassesWithValidDriver" finished-at="2023-09-25T10:09:47 IST" depends-on-methods="com.framework.base.BasePage.setupBrowser" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateAllClassesWithValidDriver -->
+        <test-method signature="verifyLoginFeature(java.lang.String,java.lang.String)[pri:5, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:09:47 IST" name="verifyLoginFeature" data-provider="data" finished-at="2023-09-25T10:10:00 IST" duration-ms="13206" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test Pass]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for number of elements found by By.xpath: //h2[text()='Account Services'] to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61640/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d078df9b8d7b6c8b7680b4d1de51a001]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //h2[text()='Account Services'] to be more than "0". Current number: "0" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.89, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61640}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61640/devtoo..., se:cdpVersion: 117.0.5938.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d078df9b8d7b6c8b7680b4d1de51a001
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at com.framework.commons.WebCommons.waitForElement(WebCommons.java:88)
+at com.application.steps.LoginPageSteps.verifyLoginIsSuccessful(LoginPageSteps.java:45)
+at com.application.tests.ApplicationTest.verifyLoginFeature(ApplicationTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFeature -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:10:00 IST" name="tearDownBrowser" finished-at="2023-09-25T10:10:00 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="stopReporting()[pri:0, instance:com.application.tests.ApplicationTest@27f981c6]" started-at="2023-09-25T10:10:00 IST" name="stopReporting" finished-at="2023-09-25T10:10:00 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReporting -->
+      </class> <!-- com.application.tests.ApplicationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
